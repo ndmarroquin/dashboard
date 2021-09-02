@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Bebas Neue', cursive; */
+}
+
+:root{
+    /* variables de color*/
+    --azul1: #345FB4;
+    --azul2: #6789CA;
+    --gris1: #313131;
+    --gris2: #777777;
+    --gris3: #A5A5A5;
+    --gris4: #CACACA;
+    --gris5: #F5F6FC;
+  
+    /* tamaños de fuente */
+    --size-h1: 3.4rem;
+    --size-h2: 2.6rem;
+    --size-h3: 2rem;
+    --size-parrafo: 1.6rem;
+}
+
+/*ESTRCUTURA DE LAS SECCIONES*/
+Section{
+    max-width: 37.5rem;
+    height: auto;
+    margin: auto;
+/*    padding: 5.6rem 3rem;*/
+    padding: 5rem 3rem;
+    
+    display: flex;
+    flex-direction: column;
+}

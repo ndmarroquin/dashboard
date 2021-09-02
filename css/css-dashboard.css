@@ -1,0 +1,150 @@
+.login-background {
+    background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%);
+    padding-top: 5rem;   
+}
+section{
+    padding: 4rem 2rem;
+}
+
+ .banner__caja1{
+    width: 34rem;
+     
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.banner__circle2{
+    background-color: var(--gris4);
+   /* width: 10rem;
+    height: 10rem;*/
+    width: 6.2rem;
+    height: 6.2rem;
+    margin-top: 2rem;
+    border-radius: 100%;
+    border: 0.3rem solid #fff;
+}
+.banner-login h2 {
+    color: #fff;
+    font-size: var(--size-h1);
+    font-weight: 200;
+    margin-bottom: 1rem;
+    
+}
+.banner-login span {
+    font-size: var(--size-h3);
+    font-weight: 100;
+    color: #fff;
+    
+    opacity: 0.61;
+}
+.banner__year{
+    width: 8.4rem;
+    height: 2.4rem;
+    color: var(--azul2);
+    font-size: 1.3rem;
+    padding: 0.4rem 0.5rem .5rem 0.5rem;
+    text-align: center;
+    border-radius: 3rem;
+    margin-top: 1.3rem;
+    background-color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.banner-login img{
+    position: absolute;
+    top: 20.3rem;
+    align-content: center;
+}
+/***************************************/
+.Aplications {
+    background-color: #fff;
+    border-radius: 4rem 4rem 0rem 0rem;  
+    padding: 52rem 2rem;
+    margin-top: 9.5rem;
+}
+.cajas{
+    width: 37.5rem;
+    margin: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    align-self: center;
+    position:absolute;
+    top: 24rem;
+}
+.cajas__hijos{
+    width: 16rem;
+    height: 20.2rem;
+    margin: 0.91rem;
+    background-color: #fff;
+    border: 0.1rem solid var(--azul2);
+    border-radius: 2rem;
+
+    position: relative;
+}
+.cajas__hijos h3{
+    color: var(--gris3);
+    font-weight: 100;
+}
+.cajas__hijos2{
+    width: 16rem;
+    height: 13.2rem;
+    margin: 0.91rem;
+    border-radius: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    background-color: var(--gris5);
+    position: relative;
+}
+.cajas__dos{
+    width: 37.5rem;
+    margin: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15rem;
+}
+.cajas__dos div{
+    width: 16rem;
+    height: 5rem;
+}    
+
+/**************** IMG *********************/
+.cajas__hijos img{
+    margin-top: 2rem;
+   margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+.cajas__hijos h1{
+    margin-left: 2rem;
+    font-size: var(--size-h1);
+    margin-bottom: 1rem;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    
+}
+.cajas__hijos h3{
+    margin-left: 2rem;
+    font-size: var(--size-parrafo);
+    
+}
+/*************** IMG 2 *******************/
+.cajas__hijos2 img{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.cajas__hijos2 h1{
+    margin-left: 2rem;
+    font-size: var(--size-h1);
+    margin-bottom: 1rem;
+}
+.cajas__hijos2 h3{
+    margin-left: 2rem;
+    font-size: var(--size-parrafo);
+    font-weight: 100;
+}
